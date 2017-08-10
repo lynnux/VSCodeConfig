@@ -66,11 +66,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+v",
-        "command": "cursorPageDown",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "alt+v",
         "command": "cursorPageUp",
         "when": "editorTextFocus"
@@ -266,11 +261,6 @@
         "when": "editorTextFocus && parameterHintsVisible"
     },
     {
-        "key": "ctrl+v",
-        "command": "selectNextPageQuickFix",
-        "when": "editorFocus && quickFixWidgetVisible"
-    },
-    {
         "key": "ctrl+n",
         "command": "selectNextQuickFix",
         "when": "editorFocus && quickFixWidgetVisible"
@@ -284,11 +274,6 @@
         "key": "ctrl+p",
         "command": "selectPrevQuickFix",
         "when": "editorFocus && quickFixWidgetVisible"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "selectNextPageSuggestion",
-        "when": "editorTextFocus && suggestWidgetVisible"
     },
     {
         "key": "ctrl+n",
@@ -334,6 +319,11 @@
         "key": "ctrl+x h",
         "command": "editor.action.selectAll",
         "when": "editorTextFocus"
+    },
+    {
+	"key": "ctrl+x ctrl+p", 
+	"command": "editor.action.selectAll", 
+	"when": "editorTextFocus"
     },
     {
         "key": "ctrl+/",
