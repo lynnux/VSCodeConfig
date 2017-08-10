@@ -349,5 +349,15 @@
         "key": "ctrl+alt+_",
         "command": "redo",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "expand_region",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "undo_expand_region",
+        "when": "editorTextFocus"
     }
 ]
